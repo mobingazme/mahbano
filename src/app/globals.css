@@ -7,6 +7,11 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+@font-face {
+  font-family: 'YekanBakh-Light.woff2';
+  src: url('/fonts/YekanBakh-Light.woff2') format('woff2');
+  /* انواع فرمت‌های فونت را می‌توانید اضافه کنید */
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -17,6 +22,7 @@
 }
 
 body {
+  font-family: 'YekanBakh-Light.woff2', sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
